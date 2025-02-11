@@ -1,0 +1,108 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.title{
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+.box{
+  border-radius: 20%;
+  border: whitesmoke 5px solid;
+  max-width: 260px;
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  text-decoration: none;
+  color: whitesmoke;
+  display: block;
+  margin-top: 200px;
+}
+
+
+
+.box:hover{
+  background-color: whitesmoke;
+  color: #242424;
+}
+
+
+.chemikalie{
+  margin-left: 20%;
+}
+
+.reakcie{
+  margin-left: 60%;
+  margin-top: -9.3%;
+}
+
+
+.container-chemikalie{
+  margin-top: 202px;
+  font-size: 40px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-chemikalie input{
+  font-size: 30px;
+}
+
+.container-chemikalie button{
+  font-size: 20px;
+}
+
+.vymaz{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.container-reakcie{
+  margin-top: 10px;
+  font-size: 40px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-reakcie input{
+  font-size: 30px;
+}
+
+.container-reakcie button{
+  font-size: 20px;
+}
+
+.title-reakcie{
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
