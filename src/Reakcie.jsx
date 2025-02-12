@@ -15,8 +15,13 @@ function Reakcie(){
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(forma)
-        }).then(() => {
-            setText(name + " bolo pridané")
+        }).then((response) => {
+            if (response.status == 400){
+                setText(`${name} už existuje v databáze`)
+            }else{
+                setText(`${name} bolo pridané`)
+            }
+            
         })
     }
 
