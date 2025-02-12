@@ -21,7 +21,7 @@ function Chemikalie(){
 
     return(
         <>
-            <p><Link to="/" className="vymaz">Domovská Stránka</Link></p>
+            <p><Link to="/soc-pridavanie" className="vymaz">Domovská Stránka</Link></p>
             <h1 className="title">CHEMIKÁLIE</h1>
             <div className="container-chemikalie">
 

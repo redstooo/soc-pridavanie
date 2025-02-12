@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<MainObrazovka/>} />
-        <Route path="/chemikalie-pridavanie" element={<Chemikalie/>} />
-        <Route path="/reakcie-pridavanie" element={<Reakcie/>} />
+        <Route path="/soc-pridavanie" element={<MainObrazovka/>} />
+        <Route path="/soc-pridavanie/chemikalie-pridavanie" element={<Chemikalie/>} />
+        <Route path="/soc-pridavanie/reakcie-pridavanie" element={<Reakcie/>} />
 
       </Routes>
     </>
