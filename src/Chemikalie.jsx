@@ -17,9 +17,11 @@ function Chemikalie(){
         }).then((response) => {
             if (response.status == 400){
                 setText(`${name} už existuje v databáze`)
-            }else{
+            }else if (response.status == 201){
                 setText(`${name} bolo pridané`)
-            } 
+            }else{
+                setText(`error: ${response.status}`)
+            }
             
         })
     }
